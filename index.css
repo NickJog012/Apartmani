@@ -1,0 +1,57 @@
+header{
+    color: blue;
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+   
+
+}
+header a{
+color: blue;
+text-decoration: none;
+
+}
+
+h1{
+color: blue;
+text-align: center;
+font-size: x-large;
+font-style: oblique;
+text-decoration: none;
+}
+
+body{
+background-color: aquamarine;
+position: fixed;
+}
+
+img{
+width: 150px;
+border: solid;
+background-color: azure;
+border-color: azure;
+margin-left: 20px;
+position: absolute;
+}
+.navigacija ul{
+display: flex;
+padding-block: 10px;
+justify-content: center;
+background-color: rgb(81, 224, 176);
+width: auto;
+flex-direction: column;
+position: relative;
+margin-left: 1600px;
+}
+
+
+
+.navigacija ul li{
+    color: blue;
+    text-align: center;
+    font-size: x-large;
+    font-style: oblique;
+    list-style: none;
+    padding: 20px;
+}
+

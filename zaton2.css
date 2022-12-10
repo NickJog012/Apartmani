@@ -1,0 +1,153 @@
+
+.parent{
+
+    
+    
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+   box-sizing: content-box;
+   display: inline-block;
+  text-decoration: none;
+  color: color: whitesmoke;
+}
+
+.child{
+background-color: #6699ff;
+width: 140px;
+height: 70px;
+text-align: center;
+justify-content: center;
+padding-top: 50px;
+border: solid;
+border-color: aquamarine;
+font-size: xx-large;
+font-family: Arial, Helvetica, sans-serif;
+font-style: oblique;
+color: whitesmoke;
+text-decoration: none;
+}
+
+.image img{
+    width: 300px;
+
+  position:absolute;
+   justify-content: center;
+   float: right;
+   border: solid;
+   border-color: whitesmoke;
+   justify-content: right;
+   float: right;
+   border: solid;
+   background-color: aqua;
+   position: relative;
+ box-sizing: border-box;
+ display: inline-block;
+}
+
+body{
+background-color: #6699ff;
+
+
+}
+h1{
+text-align: center;
+background-color: #6699ff;
+color: whitesmoke;
+width: 50%;
+font-size: xx-large;
+font-family: Arial, Helvetica, sans-serif;
+font-style: oblique;
+
+padding-top: 20px;
+
+display: inline-block
+
+
+
+}
+
+
+h2{
+    text-align: center;
+    background-color: #6699ff;
+    color: whitesmoke;
+    width: 200px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+
+    padding-top: 20px;
+
+
+display: inline-block;
+
+}
+p{
+font-size: x-large;
+color: whitesmoke;
+font-family: Arial, Helvetica, sans-serif;
+text-align:left;
+width:50%;
+padding:50px;
+margin-left:160px;
+background-color:#6699ff;
+display:inline-block;
+margin-top: 400px;
+}
+
+footer{
+background-color: #6699ff;
+color: whitesmoke;
+font-family: Arial, Helvetica, sans-serif;
+text-align:center;
+
+container-type:inline-block;
+position: static;
+}
+
+.tata{
+display:flex;
+flex-direction: row;
+margin-top: 600px;
+padding:50px;
+border:solid;
+border-color: azure;
+justify-content:center;
+}
+
+.dete{
+padding: 20px;
+border: solid;
+border-color: aquamarine;
+}
+
+.tata1{
+width: 400px;
+height: auto;
+margin-left: 300px;
+
+
+position: relative;
+
+}
+
+.child a:link{
+color: azure;
+text-decoration: none;
+
+}
+
+h2 a:link{
+  color: azure;
+  text-decoration: none;
+}
+
+form{
+position: relative;
+display: block;
+width: 400px;
+margin-left: 400px;
+padding:50px;
+}

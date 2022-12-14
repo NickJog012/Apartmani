@@ -6,14 +6,20 @@
     width: auto;
     display: flex;
     flex-direction: column;
-    position: absolute;
+    
    box-sizing: content-box;
    display: inline-block;
   text-decoration: none;
-  color: color: whitesmoke;
+  color: whitesmoke;
+  top: 20px;
+   right: 20px;
+   justify-content: left;
+   top: 20px;
+   left: 20px;
 }
 
 .child{
+ 
 background-color: #6699ff;
 width: 140px;
 height: 70px;
@@ -27,29 +33,31 @@ font-family: Arial, Helvetica, sans-serif;
 font-style: oblique;
 color: whitesmoke;
 text-decoration: none;
+padding:10px;
 }
 
 .image img{
     width: 300px;
-
-  position:absolute;
-   justify-content: center;
-   float: right;
+  position:relative;
+   justify-content: right;
+ float: right;
    border: solid;
    border-color: whitesmoke;
-   justify-content: right;
-   float: right;
+top: 20px;
+   right: 20px;
    border: solid;
    background-color: aqua;
    position: relative;
- box-sizing: border-box;
- display: inline-block;
+   box-sizing: border-box;
+opacity: 0,4;
+box-shadow: #6699ff;
 }
 
 body{
-background-color: #6699ff;
-
-
+background-image:url("bitmap.jpg");
+height: auto;
+background-position: center;
+background-size: cover;
 }
 h1{
 text-align: center;
@@ -77,9 +85,9 @@ h2{
     font-size: xx-large;
     font-family: Arial, Helvetica, sans-serif;
     font-style: oblique;
-
+justify-content: flex-end;
     padding-top: 20px;
-
+display: flex;
 
 display: inline-block;
 
@@ -103,7 +111,7 @@ color: whitesmoke;
 font-family: Arial, Helvetica, sans-serif;
 text-align:center;
 
-container-type:inline-block;
+
 position: static;
 }
 
@@ -150,4 +158,5 @@ display: block;
 width: 400px;
 margin-left: 400px;
 padding:50px;
+margin-top: 600px;
 }

@@ -20,3 +20,26 @@ const greeting="Welcome to our website";
 
 
 console.log ('this is truthy value')
+
+
+function greet(text){
+let name = prompt("Koje je vase ime");
+console.log("welcome to our website" + text);
+
+
+}
+greet();
+
+function signup(){
+    let name = prompt("Koje je vase ime");
+    greet(name);
+
+}
+console.log=(ime)
+signup();
+
+const listUsers = ["Nikola","Alen","ivana"];
+
+//listUsers.push('New');
+console.log(listUsers.lenght);
+

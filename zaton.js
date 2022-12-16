@@ -12,9 +12,11 @@ console.log(inbox/5)
 
 
 const bank1 =100;
-const bank1 =50;
+const bank2 =50;
 
 const allBanks= bank1 + bank2;
 
 const greeting="Welcome to our website";
-const user='Ed';
+
+
+console.log ('this is truthy value')

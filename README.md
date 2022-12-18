@@ -1,3 +1,3 @@
-# Projekat-Visual-Studio-Code
+# Apartmani
 Apartmani Zaton
 Projekat za izdavanje stanova u Zatonu
